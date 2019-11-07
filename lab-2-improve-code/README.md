@@ -13,4 +13,3 @@ This code is intentionally ugly
 ## Run the tests
 
 `yarn test`
-

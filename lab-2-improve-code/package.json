@@ -7,10 +7,14 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "jest": "^24.0.0"
   },
   "scripts": {
     "start": "node src/index.js",
     "test": "jest ."
-  }
+  },
+  "dependencies": {}
 }
