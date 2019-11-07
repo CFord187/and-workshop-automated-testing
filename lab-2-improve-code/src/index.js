@@ -6,7 +6,8 @@ module.exports = function greeting(i = 'my friend') {
   }
 
   let nStr = '';
-  for (const j in newI) {
+
+  for (let j = 0; j < newI.length; j += 1) {
     nStr += newI[j];
 
     if ((parseInt(j, 10) + 2 === newI.length)) {
